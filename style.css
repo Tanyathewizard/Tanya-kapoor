@@ -1,0 +1,149 @@
+body {
+    font-family: 'Juana', sans-serif;
+    /* Applying Juana font */
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 10vh;
+    font-family: 'Silk', sans-serif;
+    /* Applying Silk font to headings */
+}
+
+.subscribe-section {
+    width: 60vw;
+    text-align: left;
+}
+
+.subscribe-section p {
+    margin-bottom: 2vh;
+}
+
+input[type="email"] {
+    padding: 1vh;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    margin-right: 1vw;
+}
+
+button {
+    padding: 1vh 1.5vw;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+.address-section p {
+    margin: 0.5vh 0;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin: 2vh 0 5vh;
+}
+
+
+/* Footer styling */
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2vh 5vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 0.5vh 0;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left {
+    max-width: 50%;
+}
+
+.footer-left h3 {
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-contact p {
+    font-size: 0.9em;
+}
+
+
+/* Style for the embedded Google Map - Square Shape */
+
+.footer-right iframe {
+    width: 60vh;
+    /* Square dimensions */
+    height: 30vh;
+    border: 0;
+    margin-bottom: 1vh;
+}
+
+
+/* Left-aligned social media list */
+
+.followuslist {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    /* Left align the icons */
+    margin: 1vh 0;
+    gap: 1.5vw;
+}
+
+.followuslist li {
+    display: inline-block;
+}
+
+.followuslist a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.followuslist a:hover {
+    color: #f44336;
+}
